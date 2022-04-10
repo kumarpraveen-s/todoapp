@@ -1,0 +1,50 @@
+.createarea {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: inherit;
+}
+.createarea__form {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  box-shadow: 0 1px 5px rgb(138, 137, 137);
+  border-radius: 3px;
+}
+
+.createarea-btn {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.createarea__form .createarea__input,
+.createarea__form textarea {
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  resize: none;
+  background-color: inherit;
+}
+
+.createarea-btn {
+  border: none;
+  outline: none;
+  background-color: #fff;
+}
+
+.createarea__icon {
+  background-color: #ff8c32;
+  color: #fff;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.warning {
+  text-align: center;
+  color: red;
+  font-size: 10px;
+}
